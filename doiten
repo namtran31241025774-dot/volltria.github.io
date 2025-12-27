@@ -1,0 +1,7 @@
+git mv src/components/Header.tsx src/components/_Header.tsx
+git commit -m "temp rename header"
+
+git mv src/components/_Header.tsx src/components/Header.tsx
+git commit -m "fix header casing"
+
+git push
