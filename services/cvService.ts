@@ -20,7 +20,7 @@ const getApiKey = (): string => {
   return key;
 };
 
-const OPENAI_API_URL = "https://api.openai.com/v1/responses";
+const OPENAI_API_URL = "https://api.openai.com/v1/chat/completions";
 
 const SYSTEM_PROMPT = `Bạn là Voltria, một Chuyên gia Tuyển dụng AI cao cấp. Mục tiêu của bạn là phân tích sâu CV và đưa ra phản hồi có cấu trúc.
 
